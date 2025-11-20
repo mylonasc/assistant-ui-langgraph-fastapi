@@ -49,8 +49,6 @@ The frontend is generated using the assistant-ui CLI tool.
 
 ```bash
 cd frontend
-yarn install
-yarn dev
 ```
 
 ## Credits

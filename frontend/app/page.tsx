@@ -6,7 +6,14 @@ import {
 
 export default function Home() {
   // this is a frontend system prompt that will be made available to the langgraph agent
-  useAssistantInstructions("Your name is assistant-ui.");
+  
+
+  /*
+   * The following are commented-out because they are not working. 
+   * The are kept for reference (it is unclear at the moment what exactly is the 
+   * functionality of these functions. 
+   *
+   useAssistantInstructions("Your name is assistant-ui.");
 
   // this is an frontend function that will be made available to the langgraph agent
   useAssistantTool({
@@ -17,7 +24,7 @@ export default function Home() {
       window.location.reload();
     },
   });
-
+  */
   return (
     <main className="h-dvh">
       <MyAssistant />
